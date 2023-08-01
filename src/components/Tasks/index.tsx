@@ -98,7 +98,7 @@ export default function Tasks({ user }: DashboardProps) {
 	return (
 		<section className='max-w-screen-lg w-full px-4 mt-8 flex flex-col m-auto'>
 
-			<h1 className='text-center text-4xl mb-5'>Minhas tarefas</h1>
+			<h1 className='text-center sm:text-4xl text-3xl mb-5'>Minhas tarefas</h1>
 
 			{tasks.map(task => (
 				<article key={task.id} className='mb-3 text-lg flex flex-col items-start border-solid border-gray-600 border rounded p-3'>
